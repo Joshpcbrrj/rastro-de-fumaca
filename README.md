@@ -9,6 +9,32 @@
 
 - Versão inicial: [v0.1.0](https://github.com/Joshpcbrrj/rastro-de-fumaca/releases/tag/v0.1.0) — arquivo anexado: `rastro-de-fumaca-v0.1.0.zip` (baixar na página de Releases).
 
+### Como usar o ZIP da release
+
+- Baixe `rastro-de-fumaca-v0.1.0.zip` na página de Releases.
+- Extraia em uma pasta local:
+
+```bash
+unzip rastro-de-fumaca-v0.1.0.zip -d rastro-de-fumaca-v0.1.0
+cd rastro-de-fumaca-v0.1.0
+```
+
+- Instale dependências e rode em modo de desenvolvimento:
+
+```bash
+npm install
+npm run dev
+```
+
+- Para gerar o build de produção:
+
+```bash
+npm run build
+npm start
+```
+
+Observação: no Windows você pode usar o Explorador para extrair o ZIP ou `tar -xf` em terminais que suportem tar.
+
 ## Sumário
 
 - [🖥️ Demonstração](#demonstração)
