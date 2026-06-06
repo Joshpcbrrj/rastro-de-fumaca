@@ -171,6 +171,54 @@ cd "Projeto site do bruno"
 - Verifique se `app/globals.css` inclui as diretivas `@tailwind base;`, `@tailwind components;` e `@tailwind utilities;`.
 - Use este passo para revisar o tema visual do projeto antes de prosseguir.
 
+## **Etapa 2: Estrutura do layout e navegação**
+
+- O arquivo `app/layout.tsx` define o layout raiz e importa `app/globals.css`.
+- O `body` deve incluir classes de cor, tipografia e estilo base como `bg-navy-950 text-paper-100`.
+- Adicione a sidebar responsiva em `components/layout/CockpitSidebar.tsx`.
+- Inclua suporte a menu mobile e navegação por seções.
+- A página principal `app/page.tsx` carrega o gate local e a composição da home.
+
+## **Etapa 3: Componentes de interface e animações**
+
+- `components/home/HeroRadar.tsx` exibe o hero principal com radar animado.
+- `components/home/FeaturedResearch.tsx` mostra cards de pesquisa e abre artigos em modal.
+- `components/home/CinematicIntro.tsx` implementa a intro cinematográfica com progresso e skip.
+- `components/articles/ArticleModal.tsx` gerencia o modal, bloqueio de scroll e escape para fechar.
+
+## **Etapa 4: Autenticação e fluxo de acesso**
+
+- O app tem um gate de senha local em `app/page.tsx` com a senha `p-47`.
+- Esse mecanismo permite testar o acesso sem Supabase enquanto a integração real é desenvolvida.
+- O fluxo é:
+  1. O usuário abre a página.
+  2. Digita a senha.
+  3. Se correta, o conteúdo é exibido.
+
+## **Etapa 5: Suporte Supabase para build e fallback**
+
+- A pasta `lib/supabase` inclui stubs que evitam falhas de build quando o Supabase não está configurado.
+- `lib/supabase/client.ts` e `lib/supabase/server.ts` expõem funções mínimas como `auth.signInWithPassword`, `auth.getUser` e `from().select()`.
+- Essa estrutura permite compilar e rodar localmente enquanto a autenticação real é preparada.
+
+## **Etapa 6: Testes e validação**
+
+- O projeto usa Vitest para testes iniciais de smoke e de configuração.
+- Execute `npm test` para validar que o ambiente está consistente.
+- Adicione testes adicionais para componentes, fluxo e modais.
+
+## **Etapa 7: Build e produção**
+
+- Use `npm run build` para gerar o build de produção.
+- Antes de rodar o build, execute `npm run clean` para remover artefatos antigos.
+- O `next.config.mjs` inclui ajuste de chunks de servidor para evitar erros em produção.
+
+## **Etapa 8: Colaboração e instalação**
+
+- Clone o repositório para o seu computador.
+- Instale as dependências com `npm install`, `yarn install` ou `pnpm install`.
+- Use `npm run dev` para desenvolvimento, `npm run build` para produção e `npm test` para validar.
+
 ### 🔧 Instalação de dependências
 
 ```bash
