@@ -165,6 +165,12 @@ Observações das modificações recentes:
 cd "Projeto site do bruno"
 ```
 
+## **Etapa 1: Configuração do Tailwind e tema visual**
+
+- Certifique-se de que `tailwind.config.ts` aponta para os diretórios `app/` e `components/`.
+- Verifique se `app/globals.css` inclui as diretivas `@tailwind base;`, `@tailwind components;` e `@tailwind utilities;`.
+- Use este passo para revisar o tema visual do projeto antes de prosseguir.
+
 ### 🔧 Instalação de dependências
 
 ```bash
