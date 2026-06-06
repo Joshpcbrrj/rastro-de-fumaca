@@ -103,7 +103,7 @@ Observações das modificações recentes:
 ---
 
 ---
-title: Guia Prático de Desenvolvimento — Rastro de Fumaça
+# Guia Prático de Desenvolvimento — Rastro de Fumaça
 updated: 2026-06-06 03:05:11Z
 created: 2026-06-06 02:29:37Z
 latitude: -22.79071160
