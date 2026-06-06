@@ -174,8 +174,10 @@ npm install
 Se preferir outro gerenciador de pacotes:
 
 ```bash
-## **Etapa 1: Configuração do Tailwind e tema visual**
+yarn install
 ```
+
+ou
 
 ```bash
 pnpm install
