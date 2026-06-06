@@ -125,22 +125,6 @@ Observações das modificações recentes:
 > npm run build
 > ```
 
----
-
-<!-- Conteúdo original do Guia Prático de Desenvolvimento -->
-
-(O conteúdo do guia original foi preservado abaixo.)
-
----
-
----
-# Guia Prático de Desenvolvimento — Rastro de Fumaça
-updated: 2026-06-06 03:05:11Z
-created: 2026-06-06 02:29:37Z
-latitude: -22.79071160
-longitude: -43.36993770
-altitude: 0.0000
----
 
 # Guia Prático de Desenvolvimento — Rastro de Fumaça
 * Projeto: Rastro de Fumaça — Plataforma Histórica da Aviação Brasileira
