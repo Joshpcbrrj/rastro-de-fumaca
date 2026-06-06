@@ -5,6 +5,10 @@
 
 [📘 Explicação técnica do projeto](doc/Explicacao-tecnica-do-projeto.md)
 
+## 📦 Release
+
+- Versão inicial: [v0.1.0](https://github.com/Joshpcbrrj/rastro-de-fumaca/releases/tag/v0.1.0) — arquivo anexado: `rastro-de-fumaca-v0.1.0.zip` (baixar na página de Releases).
+
 ## Sumário
 
 - [🖥️ Demonstração](#demonstração)
