@@ -57,6 +57,60 @@ next.config.mjs           # ajuste webpack para chunks do servidor
 README.md
 ```
 
+## Estrutura de pastas (detalhada)
+
+Abaixo está um exemplo do output `tree /f` (estilo bash) indicando a organização atual do projeto e onde ficam os arquivos mais importantes:
+
+```bash
+.
+├─ .git/
+├─ .gitignore
+├─ .next/
+├─ app/
+│  ├─ admin/
+│  ├─ aeronaves/
+│  ├─ artigos/
+│  ├─ globals.css
+│  ├─ layout.tsx
+│  ├─ login/
+│  └─ page.tsx
+├─ components/
+│  ├─ layout/
+│  │  └─ CockpitSidebar.tsx
+│  ├─ home/
+│  │  ├─ CinematicIntro.tsx
+│  │  ├─ FeaturedResearch.tsx
+│  │  └─ HeroRadar.tsx
+│  └─ articles/
+│     ├─ ArticleCard.tsx
+│     └─ ArticleModal.tsx
+├─ lib/
+│  └─ supabase/
+│     ├─ client.ts
+│     └─ server.ts
+├─ public/
+│  └─ images/
+│     ├─ aircraft/
+│     ├─ articles/
+│     └─ branding/
+├─ doc/
+│  ├─ Explicacao-tecnica-do-projeto.md
+│  ├─ img_projeto_mobile.png
+│  └─ img_projeto_web.png
+├─ tests/
+│  ├─ basic.test.ts
+│  ├─ check-globals-css.js
+│  └─ check-supabase-stub.js
+├─ next.config.mjs
+├─ package.json
+├─ README.md
+├─ tailwind.config.ts
+├─ tsconfig.json
+└─ LICENSE
+```
+
+Este mapa ajuda a localizar rapidamente onde ficam os componentes, rotas e stubs usados para desenvolvimento sem Supabase.
+
 ## Principais arquivos e responsabilidades
 
 - `app/layout.tsx` — Root layout, importa `app/globals.css` e define metadados.
