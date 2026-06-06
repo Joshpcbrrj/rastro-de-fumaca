@@ -1,0 +1,37 @@
+{
+  "name": "rastro-de-fumaca",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "clean": "node -e \"const { rmSync } = require('fs'); rmSync('.next', { recursive: true, force: true });\"",
+    "build": "npm run clean && next build",
+    "test": "vitest run --reporter verbose || node ./tests/check-globals-css.js && node ./tests/check-supabase-stub.js",
+    "start": "next start -p 3001"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.107.0",
+    "autoprefixer": "^10.4.0",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.17.0",
+    "next": "^14.0.0",
+    "postcss": "^8.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.77.0",
+    "tailwindcss": "^3.4.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "25.9.2",
+    "@types/react": "19.2.17",
+    "@types/testing-library__jest-dom": "^5.14.9",
+    "jsdom": "^29.1.1",
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.8"
+  }
+}
