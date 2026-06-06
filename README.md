@@ -2,6 +2,7 @@
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Release](https://img.shields.io/github/v/release/Joshpcbrrj/rastro-de-fumaca?label=Release&color=blue)
 
 [📘 Explicação técnica do projeto](doc/Explicacao-tecnica-do-projeto.md)
 
